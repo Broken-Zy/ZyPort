@@ -4,8 +4,9 @@
     font-family: Century Gothic;
 }
 
-html {
+html, p {
   scroll-behavior: smooth;
+  color: yellow;
 }
 
 .Nav {
