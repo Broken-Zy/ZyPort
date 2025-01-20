@@ -22,8 +22,12 @@
                 <img src="images/ZyLogo.png" alt="Website Logo" class="logo"> 
                 <ul>
                     <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="16" height="16">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                      </svg> About</a></li>
+                    <li><a href="#skills-section"><svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="16" height="16">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"></path>
+                      </svg>Skills</a></li>
                 </ul>
             </nav>
         </div>
@@ -38,7 +42,9 @@
     <center><p id="meIntro"> Persevering to bring imaginations to Life.</p></center>
     </section >
     
-    <br><center><button class="btnRes">Inspect my Resume
+    <br><center><button class="btnRes"><svg data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="24" height="24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"></path>
+      </svg> Inspect my Resume
     <span class="btnback"></span>        
     </button></center><br>
 
@@ -59,17 +65,28 @@
     </section>
 
     <!--Skills-->
-    <section class="Skills" id="skills">
+    <section class="skills-section" id="skills-section">
         <h2>Skills</h2>
-        
-        <div class="front">
-        <h3>Front-End</h3>
-        
+        <div class="skill-category" id="front-end">
+            <h3>Front End</h3>
+            
 
+            <!-- Insert logos for front-end skills here -->
         </div>
+        <div class="skill-category" id="back-end">
+            <h3>Back End</h3>
+            
 
+            <!-- Insert logos for back-end skills here -->
+        </div>
+        <div class="skill-category" id="others">
+            <h3>Others</h3>
+            
 
+            <!-- Insert logos for other skills here -->
+        </div>
     </section>
+    
     
 
 

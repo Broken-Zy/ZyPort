@@ -129,7 +129,7 @@ body {
     position: relative;
     z-index: 1;
     border-radius: 25px;
-    box-shadow: 0px 0px 10px 1px yellow;
+    box-shadow: 0px 0px 5px 1px yellow;
   }
 
   .About .imgb .imgb1,
@@ -171,10 +171,31 @@ body {
   }
 }
 
-  .Skills h2{
-    color: yellow;
-    margin-right: 50px;
+  .skills-section {
+    margin: auto;
   }
+
+  .skills-section h2{
+    color: yellow;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .skills-section h3{
+    color: yellow;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .skill-category img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+  /*.skills-section .skill-category {
+
+  } */
 
   footer {
     color: white;
