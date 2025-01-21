@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Century Gothic;
+    scrollbar-color: yellow #402a57;
+    scrollbar
 }
 
 html, p {
@@ -176,6 +178,7 @@ body {
   .skills-section {
     margin: 25px;
     box-shadow: 0px 0px 5px 1px yellow;
+    align-self: center;
   }
 
   .skills-section h2{
@@ -190,10 +193,19 @@ body {
     margin: auto;
   }
 
-  .skill-category img {
+  .skill-category img{
     width: 50px;
     height: auto;
     margin-right: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.skill-category ul li {
+  display: inline-block;
+  align-items: center;
+  align-content: center;
 }
 
   /*.skills-section .skill-category {
